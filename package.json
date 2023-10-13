@@ -1,14 +1,12 @@
 {
-  "name": "app.js",
+  "name": "your-app-name",
   "version": "1.0.0",
-  "description": "Назва та опис вашого застосунку",
+  "description": "Your app description",
   "main": "app.js",
   "scripts": {
-    "test": "mocha tests/*.js",
-    "lint": "eslint src",
-    "start": "node app.js"  // Змініть цей рядок на команду, яка запускає ваш застосунок
+    "start": "node app.js"
   },
-  "author": "Ваше ім'я",
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
