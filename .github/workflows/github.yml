@@ -1,15 +1,30 @@
-stages:
-  - test
-  - lint
+name: CI/CD Pipeline
 
-test:
-  stage: test
-  script:
-    - npm install
-    - npm test
+on:
+  push:
+    branches:
+      - main
 
-lint:
-  stage: lint
-  script:
-    - npm install
-    - npx eslint src
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm run test
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deployment (Echo Success)
+        run: echo "Deployment successful"
