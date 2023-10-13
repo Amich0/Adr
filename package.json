@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "mocha mocha.js"
+    "test": "mocha mocha.js",
+    "lint": "eslint src"
   },
   "author": "Your Name",
   "license": "MIT",
