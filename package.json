@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha tests/*.js",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "start": "node app.js"  // Змініть цей рядок на команду, яка запускає ваш застосунок
   },
   "author": "Ваше ім'я",
   "license": "MIT",
