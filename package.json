@@ -4,8 +4,8 @@
   "description": "Your app description",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
-     "test": "mocha mocha.test.js"
+    "start": "node app.js",
+    "test": "mocha mocha.test.js"
   },
   "author": "Your Name",
   "license": "MIT",
