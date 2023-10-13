@@ -1,0 +1,17 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "Назва та опис вашого застосунку",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js",
+    "lint": "eslint src"
+  },
+  "author": "Ваше ім'я",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^9.0.3",  // Додайте правильну версію Mocha
+    "eslint": "^7.32.0" // Додайте правильну версію ESLint
+  }
+}
