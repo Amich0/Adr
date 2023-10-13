@@ -1,4 +1,4 @@
-const { add, invertResult } = require('../app');
+const { add, invertResult } = require('./app');
 const assert = require('assert');
 
 describe('Addition', () => {
